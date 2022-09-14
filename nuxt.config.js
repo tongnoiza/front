@@ -44,17 +44,6 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: ['@nuxtjs/axios'],
 
-  publicRuntimeConfig: {
-    axios: {
-      browserBaseURL: process.env.BROWSER_BASE_URL
-    }
-  }, axios: {
-    baseURL: 'http://localhost:3002'
-  }, privateRuntimeConfig: {
-    axios: {
-      baseURL: process.env.BASE_URL
-    }
-  },
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
     customVariables: ['~/assets/variables.scss'],

@@ -8,7 +8,7 @@
           tile
           width="100%"
           class="dark lighten-1 text-center align-center"
-        >  <RegisterDialog />
+        >  <RegisterDialog /> <about-us/>
           <!-- <v-card-text>
             <v-btn
               v-for="icon in icons"
@@ -50,7 +50,9 @@
       </v-row>   -->
   </template>
   <script>
+import AboutUs from './AboutUs.vue'
     export default {
+  components: { AboutUs },
       data: () => ({
         icons: [
           'mdi-home',

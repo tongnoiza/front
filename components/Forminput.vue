@@ -5,11 +5,13 @@
 <script>
 export default {
     name:'forminput',
+
     data(){
         return {
             form:{},
             valid:false,
-            dialog: false,                   
+            dialog: false,    
+              
         }
     },created() {
     this.$nuxt.$on('save',this.save())

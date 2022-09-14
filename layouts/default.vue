@@ -1,6 +1,5 @@
 <template>
   <v-app dark>
-
     <v-main>
    <Vwinsows/>
       <v-container>
@@ -14,6 +13,7 @@
 <script>
 import Footer from "../components/Footer.vue";
 export default {
+  layout:'default',
     name: "DefaultLayout",
     data() {
         return {
@@ -40,7 +40,10 @@ export default {
             title: "Vuetify.js"
         };
     },
-    methods: {},
+  
+    methods: {
+
+    },
     components: { Footer }
 }
 </script>
